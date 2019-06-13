@@ -3,9 +3,9 @@ from pymessenger.bot import Bot
 import random, re, os, requests
 
 #paste your messenger app page access token here
-PAGE_ACCESS_TOKEN = 'EAAEXm0CJeicBAOwLUXFCsejHYcJGC4isNkNTzG9sB2uMDNZCJ8rOuNhXKaBqw5ZALYmvulIHyirDWxcYZAXpY0xu4zgTdYZC0sIe4JLXX4ftWmLWCAwUuOMZC26GNV3AFn1FzGZAQyzCznz8rTNrow5JpljDoCRrJE2UrHNOfbHky5GYoRm9ZCs'
+PAGE_ACCESS_TOKEN = #Place_Your_Page_Token_Here
 #
-VERIFY_TOKEN = 'secret'
+VERIFY_TOKEN = #Paste_Your_Webhook_Verify_Token_here
 
 app = Flask(__name__)
 bot = Bot(PAGE_ACCESS_TOKEN)
